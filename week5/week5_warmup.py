@@ -5,7 +5,7 @@
 # b. Retrieve the second to last character.
 # c. Find the first occurrence of the letter 'c'.
 string="abracadabra"
-print(string[6])
+print(string[4])
 print(string[-2])
 print(string.find("c"))
 # Advanced Slicing:
@@ -17,7 +17,6 @@ abc="abcdefghijklmnopqrstuvwxyz"
 print(abc[7:10])
 print(abc[0:14:2])
 print(abc[::-1])
-
 
 # Problem Set 2: Extracting Information
 # From Descriptions:
@@ -37,24 +36,38 @@ print(result)
 # Problem Set 3: String Methods
 # Upper & Lower:
 # Convert the following text to lowercase: "MAY THE FORCE BE WITH YOU."
-
+shout="MAY THE FORCE BE WITH YOU"
+calmDown=(shout.lower())
 # String Joining and Splitting:
 # Given the list motto = ["Make", "haste", "slowly."],
 # a. Convert the list into a single string.
+motto=["make", "haste", "slowly"]
+joined=" ".join(motto)
+print(joined)
 # b. Now, split the string at every occurrence of the letter 'a'.
 
 # Replacing Words:
 # Modify the sentence: "Life is what happens when you are busy making other plans."
 # a. Replace "busy" with "distracted".
 # b. Replace "plans" with "mistakes".
-
+quote="Life is what happens when you are busy making other plans."
+print(quote.replace("busy", "distracted"))
+print(quote.replace("plans", "mistakes"))
 # Problem Set 4: String Properties and Advanced Operations
 # Repetition:
 # Concatenate the word "Iteration" 7 times.
-
+result = "iteration " 
+repeatingandrepeating=result* 7
+print(repeatingandrepeating)
 # Word Search:
 # Check if the word "moonlight" appears in the quote: "With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
-
+text="With freedom, books, flowers, and the moon, who could not be happy? - Oscar Wilde"
+moonlight="moonlight"
+check=moonlight in text
+print(check)
 # Length and Count:
 # a. Calculate the number of characters (including spaces and punctuation) in the word/phrase: "Supercalifragilisticexpialidocious".
+long="Supercalifragilisticexpialidocious"
+howmuch=len(long)
+print(howmuch)
 # b. Count the number of times the letter 'i' appears in the same word/phrase.
