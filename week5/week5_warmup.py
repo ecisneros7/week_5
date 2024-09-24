@@ -25,9 +25,10 @@ print(abc[::-1])
 extract="Ask not what your country can do for you — ask what you can do for your country. - John F. Kennedy"
 name=(extract[83:-1])
 
-# Given the string info = "Python is fun. Fun is good. Good is subjective.",
+# Given the string 
+info = "Python is fun. Fun is good. Good is subjective."
 # a. Extract the word 'subjective' without knowing its exact position.
-words = text.split()
+words = info.split()
 # b. Extract every third word.
 every_third_word=words[::3]
 # c. Reverse the positions of the words, but keep the characters in each word in the same order.
